@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    color:#fff;
+    text-transform: uppercase;
+    border-bottom: #009b90 3px solid;
+}
+
+.trangchu{
+    margin:8px 0px 0px 147px;
+    height: 32px;
+    width: 162px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #555555;
+}
+.trangchu:hover{
+    color: #fff;
+    background-color:#009b90; 
+}
+.trangchu-icon{
+    color: #00c3b5; 
+}
+.trangchu-text{
+    color:#fff;
+}
+.tentrang{
+    margin:7px 0px 0px 30px ;
+    display: grid;
+    cursor: pointer;
+    
+}
+.ptit{
+    
+    font-size: 12px;
+    color: #0db3a7;
+    font-weight:bolder;
+}
+.chuyenmuc{
+    font-weight: 600;
+    font-size: 22;
+}
+.header-menu{
+    display:flex;
+    list-style-type: none;
+    margin-left: 180px;
+    font-size: 14px;
+    line-height:50px ;
+    cursor: pointer;
+}
+.header-menu-item{
+    padding: 0px 8px;
+    color: #BBBBBB;
+    font-weight: 600;
+}
+.header-menu-item:hover{
+    color: #fff;
+    
+}
+.aff-logo{
+    height: 40px;
+    color: #fff;
+}
+
+.ti-menu{
+    font-size: 22px;
+    color: #fff;
+}
+
+.ti-menu:hover{
+    color: #079187;
+}
+.header:hover .menu-phu{
+    display: flex;
+    
+}
+.menu-phu{
+    display:none;
+    color: black;
+    position:absolute;
+    top :50px;
+    padding-left: 400px;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+    font-weight: 700;
+    align-items: center;
+    background-color: rgb(240, 239, 239);
+    animation: menuPhu 0.2s ease-in; 
+    
+    
+}
+.menu-phu-item{
+    margin: 0px 50px;
+    cursor: pointer;
+}
+.menu-phu-item:hover{
+    color:#079187;  
+}
+.noidung{
+    display: block;
+    margin: 0px 410px;
+}
+.noidung-body{
+    position: relative;
+    top:50px;
+    background-color: #fff;
+    
+    min-height: 1350px;
+}
+.noidung-news{
+    display: flex;
+    margin-top: 20px;
+    width: 1040 px;
+    height: 571px;
+    background-color: #fff;
+}
+.the-newest-caption{
+    font-size: 22px;
+    padding: 5px 0px;
+}
+.noidung-the-newest{
+    width: 420px;
+    height: 540px;
+}
+.the-newest-des{
+    padding: 5px 0px;
+    font-size: 14px;
+    color: #666;
+}
+.news-list{
+    width: 260px ;
+    margin: 0px 30px ;
+    border-top: #079187 3px solid;
+    list-style-type: none;
+}
+.news-item{
+    padding: 10px 0px;
+    display: grid;
+    border-bottom: #dddada 1px solid  ;
+}
+.news-item:last-child{
+    border: none;
+}
+.news-item-link{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 14px;
+    padding: 10px 0px;
+    line-height: 20px;
+}
+.news-category{
+ text-decoration: none;
+ color:#079187;
+ font-size: 14px;
+ font-weight: 500;
+}
+.news-quotes{
+    height: 200px;
+    background-color: #e5f3ed;
+    border-top: #079187 3px solid;
+    padding:15px ;
+    
+    
+}
+.news-quotes-header{
+    display: flex;
+}
+.news-quotes-img{
+    margin-left:40px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 70px;
+}
+.news-quotes-name{
+    
+font-size: 15px;
+color: #079187;
+text-transform: uppercase;
+
+}
+.news-quotes-job{
+   color: #787878;
+   font-size: 11px;
+   padding: 8px 0px;
+}
+.news-quotes-text{
+    font-size: 12px;
+}
+.content-ads{
+    height: 510px;
+    width: 300px;
+    display: block;
+}
+.content-ads-img{
+    width: 300px;
+    height: 250px;
+    
+  
+    
+}
+.content-slider{
+    display: flex;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 712px;
+    cursor: pointer;
+}
+.content-slider-item{
+    display:grid;
+    width: 271px;
+    margin-right: 20px;
+
+    
+}
+.content-slider-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer{
+    
+    margin: 100px 410px 0px 410px ;
+    height: 354px;
+}
+.footer-header{
+ height: 100px;
+ border-bottom: #079187 8px solid;
+ border-top: #BBBBBB 2px solid;
+ display: flex;
+}
+.ptit-footer{
+    font-size: 22px;
+    line-height:62px;
+    margin: 0 20px;
+    color: #0db3a7;
+    font-weight:bolder;
+}
+.footer-download{
+  margin-top: 28px;
+  color: #fff;
+  text-decoration: none;
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 2px;
+   width: 183px;
+   text-align: center;
+  background-color: #079187;
+  cursor: pointer;
+
+}
+.footer-logo{
+    
+    height: 80px;
+    margin-right: 10px;
+}
+.footer-search{
+margin-left: 430px;
+    height: 24px;
+width: 300px;
+margin-top: 28px;
+
+}
+.footer-content{
+    display: flex;
+    padding-bottom: 100px;
+}
+.footer-content-left{
+    margin-top: 10px;
+    width: 50%;
+}
+.footer-content-text{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    
+}
+.footer-content-right{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.footer-content-under{
+    font-size: 14px;
+    text-decoration: underline;
+}
+.footer-content-link{
+    font-size: 11px;
+    color: #000;
+}
+.footer-messenger{
+    color: #fff;
+    display: flex;
+    background-color: #0084ff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.footer-messtext{
+    font-size: 13px;
+    
+}
+@keyframes menuPhu {
+    from{
+    height: 0px;
+    opacity: 0;
+    }
+    to{
+        height: 80px;
+        opacity: 1;
+
+    }
+    
+}
